@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Cedarville+Cursive&family=Noto+Music&family=Noto+Sans+Mono:wght@300;400&family=Poppins:ital,wght@0,100;0,500;1,100;1,200;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0; 
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    height: 100%;
+    background-color:rgba(240, 235, 235, 0.203);
+}
+h1{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: darkorange;
+}
+h1:hover{
+    color: chartreuse;
+}
+img{
+    width: 100%;
+}
+/* styling the container */
+.container{
+display: grid;
+grid-template-columns:repeat(auto-fit,minmax(12rem,1fr)) ;
+gap: 5px;
+margin-top: 10px;
+
+}
+.card{
+ border: 2px solid black;
+ box-shadow: 7px 9px 10px 3px rgba(135,121,135,1);
+ border-radius: 12px;
+}
+.content{
+    text-align: center;
+    margin: 6px;
+    padding: 4px;
+}
+a{
+    text-decoration: none;
+    border: 5px;
+}
+button{
+    background-color: aqua;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: rgb(255, 204, 0);
+}
+.card:hover{
+    background-color: chartreuse;
+    box-shadow: none;
+    z-index: 5;
+}
